@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo useradd test1
+sudo passwrd test1
+pkill -u test1 | sudo userdell -f test1
